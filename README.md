@@ -9,7 +9,7 @@ This is a lightweight CLI tool to automate container image transfers between reg
 - Uses `uv` for fast dependency management and clean Python environments
 
 ## About files within the directory
-
+```
 transfer-images/ 
 │
 ├── transferimages.py -> Main script to handle image transfer 
@@ -17,7 +17,7 @@ transfer-images/
 ├── pyproject.toml  -> Project metadata and dependencies (uv-compatible) 
 ├── uv.lock -> Locked dependencies 
 └── README.md  -> Documentation
-
+```
 ## Prerequisites
 
 - Python 3.13+
