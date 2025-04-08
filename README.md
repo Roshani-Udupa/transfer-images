@@ -49,14 +49,15 @@ cd transfer-images
 
 ```bash
 uv venv
-uv pip install --sync
 ```
-
- If you're inside a different virtual environment, use `--active` instead:
-
- ```bash
- uv pip install --sync --active
- ```
+Activate the virtual environment:
+```bash
+source .venv/Scripts/activate
+```
+Install the dependencies:
+```bash
+uv pip install .
+```
  
 ### 3. Configure Image Transfers
 
