@@ -22,13 +22,11 @@ transfer-images/
 
 - Python 3.13+
 -  Install [`uv`](https://github.com/astral-sh/uv)  
-	macOs or Linux :
-
+macOs or Linux :
 ```bash
   curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
-    Windows :
-		
+Windows:	
 ```powershell
 
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
