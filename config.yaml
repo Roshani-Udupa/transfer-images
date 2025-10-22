@@ -1,0 +1,3 @@
+transfers:
+  - source: quay.io/roshaniudupa/myfirstrepo:latest
+    destination: docker.io/roshaniudupa/myfirstrepo:latest
